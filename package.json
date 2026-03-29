@@ -3,13 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hieu1601-04.github.io/thiep/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^11.18.2",
@@ -19,7 +16,6 @@
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.3",
     "@vitejs/plugin-react": "^4.3.4",
-    "gh-pages": "^6.3.0",
     "tailwindcss": "^4.1.3",
     "vite": "^5.4.10"
   }
